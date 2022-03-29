@@ -1,0 +1,219 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Main styling */
+.main{
+    position: relative;
+    background: rgb(245, 205, 124);
+    min-height: 750px;
+}
+
+.main-avatar img{
+    border-radius: 50%;
+    border: 5px solid black;
+    padding: 20px;
+}
+
+
+.social-link a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.header{
+    position: sticky;
+    top:-10px;
+    z-index: 2;
+    background: rgb(245, 205, 124);
+    
+}
+
+.menu-bar{
+    background-image: rgb(245, 205, 124);
+    
+}
+
+.nav-link{
+    margin: 3px;
+}
+.navbar-nav{
+    text-align: right;
+    margin-right: 20px;
+}
+
+/* Main styling End */
+
+/* Intro section styling */
+
+/* End Intro section styling */
+.designer{
+    background: rgb(245, 205, 124);
+}
+.developer{
+    color: white;
+    background: black;
+}
+
+.intro-heading, .intro-para{
+    line-height: 1.5;
+}
+/* .intro-heading{
+    font-size: 3rem;
+}
+.intro-para{
+    font-size: 1.5rem;
+} */
+/* Services section styling */
+.service{
+    /* border: 1px solid black; */
+    padding: 100px 20px;
+    /* margin: 500px 0px; */
+    transition: 0.5s;
+}
+.service h1{
+    /* font-size: 60px; */
+    font-family: "Poppins", Arial, sans-serif;
+}
+
+.vertical-line{
+    height: 100px;
+    opacity: 10;
+    width: 5px;
+}
+.service:hover{
+    background: rgb(245, 205, 124);
+}
+
+.service:hover h1 i{
+    color: white;
+}
+.service-2 h1 i{
+    color: white;
+}
+.service-2{
+    background: black;
+    transition: 0.5s;
+}
+.services .service-2 p{
+    color: white;
+}
+.services .service-2 h2{
+    color: white;
+}
+
+.service-2:hover p{
+    color: black;
+}
+
+.service-4{
+    background: rgb(245, 205, 124);
+}
+
+/* End services section styling */
+
+/* About section styling */
+
+.about{
+    background: rgba(245, 205, 124, 0.6);
+}
+
+.about .contact-btn{
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 0.7rem;
+    transition: 0.5s;
+    
+}
+.about .contact-btn:hover{
+    background: white;
+    color: black;
+    /* border: 3px solid rgb(245, 205, 124); */
+}
+
+
+/* End about section styling */
+
+/* Contact section styling */
+
+.contact{
+    background-color: rgb(29, 28, 28);
+}
+
+
+
+.form-control {
+    height: 43px;
+    border: none;
+    border-radius: 0px;
+    border-bottom: 1px solid rgba(255, 255, 255);
+    background: transparent !important;
+    color: #fff !important;
+    border-bottom-width: 2px !important; 
+    border-color: rgba(255, 255, 255, 0.5) !important;
+}
+.form-control:active, .form-control:focus {
+    border-color: #fff !important; 
+}
+.form-control:hover, .form-control:active, .form-control:focus {
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important; 
+}
+.form-control::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: rgba(255, 255, 255, 0.5); 
+}
+/* End Contact section styling */
+
+/* Footer section styling */
+
+footer{
+    background: rgb(245, 205, 124);
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+}
+
+
+/* End footer section styling */
+
+/* Universal classes */
+
+.yellow-text{
+    color: rgb(245, 205, 124);
+}
+.black-text{
+    color: black;
+}
+
+.large-font{
+    font-size: 60px;
+}
+
+.medium-font{
+    font-size: 30px;
+}
+
+@media screen and (min-width: 768px){
+    body{
+        font-size: 1rem;
+    }
+    .large-font{
+        font-size: 40px;
+    }
+    .medium-font{
+        font-size: 20px;
+    }
+
+}
