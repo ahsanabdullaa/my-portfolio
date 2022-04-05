@@ -9,9 +9,9 @@ body{
 
 /* Main styling */
 .main{
-    position: relative;
+    padding-top: 20vh;
     background: rgb(245, 205, 124);
-    min-height: 80vh;
+    min-height: 85vh;
 }
 
 .main-avatar img{
@@ -29,8 +29,8 @@ body{
 }
 
 .header{
-    position: sticky;
-    top:-10px;
+    position: relative;
+    width: 100%;
     z-index: 2;
     background: rgb(245, 205, 124);
     
@@ -45,6 +45,7 @@ body{
 }
 
 .nav-link{
+    position: relative;
     margin-left: 1rem;
     font-size: 18px;
     border-bottom: 1px solid black;
@@ -75,21 +76,12 @@ body{
 .intro-heading, .intro-para{
     line-height: 1.5;
 }
-/* .intro-heading{
-    font-size: 3rem;
-}
-.intro-para{
-    font-size: 1.5rem;
-} */
 /* Services section styling */
 .service{
-    /* border: 1px solid black; */
     padding: 100px 20px;
-    /* margin: 500px 0px; */
     transition: 0.5s;
 }
 .service h1{
-    /* font-size: 60px; */
     font-family: "Poppins", Arial, sans-serif;
 }
 
@@ -147,7 +139,6 @@ body{
 .about .contact-btn:hover{
     background: white;
     color: black;
-    /* border: 3px solid rgb(245, 205, 124); */
 }
 
 
@@ -219,6 +210,13 @@ footer a{
     font-size: 30px;
 }
 
+.fixed {
+    background: rgb(255, 196, 78);
+    position: sticky;
+    top: -10px;
+    transition: 1s;
+}
+
 @media screen and (max-width: 768px){
     body{
         font-size: 1rem;
@@ -229,8 +227,5 @@ footer a{
     .medium-font{
         font-size: 15px;
     }
-    /* .main{
-        min-height: 600px;
-    } */
 
 }
